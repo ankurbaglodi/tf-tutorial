@@ -1,4 +1,12 @@
 terraform {
+
+  cloud {
+    organization = "ankur-baglodi"
+    workspaces {
+      name = "learn-terraform-aws"
+    }
+  }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -10,7 +18,7 @@ terraform {
 }
 
 provider "aws" {
-  region  = "us-west-2"
+  region = "us-west-2"
 }
 
 resource "aws_instance" "app_server" {

@@ -1,3 +1,3 @@
 # Terraform Tutorial
 
-Trying to play around terraform tutorial documentation for local projects.
+[Terraform tutorial for aws](https://developer.hashicorp.com/terraform/tutorials/aws-get-started)
